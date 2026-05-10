@@ -1,11 +1,6 @@
-import dash
-from dash import dcc, html, callback
-from dash.dependencies import Output, Input
+
+from dash import dcc, html
 import dash_bootstrap_components as dbc
-import pandas as pd
-import pandas_datareader.data as web
-import datetime as dt
-import plotly.graph_objects as go
 import plotly.express as px
 
 # -----------------------------------------------------------------------------
